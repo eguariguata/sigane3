@@ -26,9 +26,11 @@ if(empty($_SESSION)) {
     <header class="header-user-dropdown fixed-top">
       <div class="header-limiter">
         <h1><img class="d-block mx-auto mb-4" src="assets/img/sigane2.png"></h1>
-        <nav>
-          <a href="inicio.php"><i class="fa fa-reply fa-3x"></i></a>
-        </nav>
+        <div class= pull-right>
+          <nav>
+            <a href="inicio.php"><i class="fa fa-reply fa-2x"></i></a>
+          </nav>
+        </div>  
         <div class="header-user-menu">
           <div>
           <img src="assets\img\logueado.jpg" alt="User Image"/>
